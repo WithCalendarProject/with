@@ -18,32 +18,6 @@ class DateManager: NSObject {
     
     var days = [31,28,31,30,31,30,31,31,30,31,30,31]
     
-    func selectDate() -> Int{
-        return calendar.component(.day,from: selectDay)
-    }
-    
-    func selectMonth() -> Int{
-        return calendar.component(.month,from: selectDay)
-    }
-    
-    func selectYear() -> Int{
-        return calendar.component(.year,from: selectDay)
-    }
-    
-    func createCalendar(collection: UICollectionView) -> () {
-        
-        
-        
-    }
-    
-    
-    //Dateから年月日を抽出する関数
-    /*func roundDate(_ date: Date, calendar cal: Calendar) -> Date{
-     return cal.date(from: DateComponents(year: cal.component(.year, from: date), month: cal.component(.month, from: date), day: cal.component(.day, from: date)))!
-     }*/
-    
-    
-    
     
     func BeginOfMonthCalender() -> Date{
         

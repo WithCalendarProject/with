@@ -18,6 +18,7 @@
 		50061AFB20B63F6B00052E70 /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50061AF920B63F6B00052E70 /* CalendarViewController.xib */; };
 		50061AFD20B63FAF00052E70 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50061AFC20B63FAF00052E70 /* DateManager.swift */; };
 		50061B0020B6405F00052E70 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50061AFF20B6405F00052E70 /* Constraint.swift */; };
+		50061B0820B66D3C00052E70 /* CalendarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50061B0720B66D3C00052E70 /* CalendarViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		50061AF920B63F6B00052E70 /* CalendarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
 		50061AFC20B63FAF00052E70 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
 		50061AFF20B6405F00052E70 /* Constraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		50061B0720B66D3C00052E70 /* CalendarViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CalendarViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 			children = (
 				50061AF820B63F6B00052E70 /* CalendarViewController.swift */,
 				50061AF920B63F6B00052E70 /* CalendarViewController.xib */,
+				50061B0720B66D3C00052E70 /* CalendarViewController.storyboard */,
 			);
 			path = Calendar;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 			files = (
 				50061AFB20B63F6B00052E70 /* CalendarViewController.xib in Resources */,
 				50061ACF20B5150900052E70 /* LaunchScreen.storyboard in Resources */,
+				50061B0820B66D3C00052E70 /* CalendarViewController.storyboard in Resources */,
 				50061ACC20B5150900052E70 /* Assets.xcassets in Resources */,
 				50061ACA20B5150600052E70 /* Main.storyboard in Resources */,
 			);
