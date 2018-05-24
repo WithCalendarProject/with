@@ -53,11 +53,11 @@ class CalendarCollectionViewLayout: UICollectionViewLayout {
                 let dayOfWeek = count % 7
                 
                 if i == 1{
-                    if count > selected - dayOfWeek, count <= selected + (7 - dayOfWeek), selectedColor == UIColor.white{
+                    /*if count > selected - dayOfWeek, count <= selected + (7 - dayOfWeek), selectedColor == UIColor.white{
                         cellVerticalMargin = 150.0
                     }else{
                         cellVerticalMargin = 0.0
-                    }
+                    }*/
                 }
                 
                 //X座標を更新
