@@ -97,6 +97,10 @@
 		50061AC320B5150600052E70 /* With */ = {
 			isa = PBXGroup;
 			children = (
+				50061AF520B63AAB00052E70 /* View */,
+				50061AF420B63A9200052E70 /* ViewController */,
+				50061AF220B63A6500052E70 /* API */,
+				50061AF320B63A7500052E70 /* Model */,
 				50061AC420B5150600052E70 /* AppDelegate.swift */,
 				50061AC620B5150600052E70 /* ViewController.swift */,
 				50061AC820B5150600052E70 /* Main.storyboard */,
@@ -123,6 +127,34 @@
 				50061AE620B5150A00052E70 /* Info.plist */,
 			);
 			path = WithUITests;
+			sourceTree = "<group>";
+		};
+		50061AF220B63A6500052E70 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		50061AF320B63A7500052E70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50061AF420B63A9200052E70 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		50061AF520B63AAB00052E70 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
