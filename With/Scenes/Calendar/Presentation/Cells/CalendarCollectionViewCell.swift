@@ -10,8 +10,8 @@ import UIKit
 
 class CalendarCollectionViewCell: UICollectionViewCell {
     var textLabel : UILabel!
-    var dateLabel : UILabel!
     
+    var dateLabel : UILabel!
     var ovalShapeLayer = CAShapeLayer()
     
     required init?(coder aDecoder: NSCoder) {

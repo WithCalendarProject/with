@@ -10,13 +10,15 @@ import UIKit
 
 class DateManager: NSObject {
     
+    let toDay:Date = Date()
     var selectDay = Date()
     var biginDay = Date()
     var endDay = Date()
     let calendar = Calendar.current
     let date = Date()
     
-    var days = [31,28,31,30,31,30,31,31,30,31,30,31]
+    var days:[Int] = [31,28,31,30,31,30,31,31,30,31,30,31]
+    let weeks = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]
     
     
     func BeginOfMonthCalender() -> Date{
