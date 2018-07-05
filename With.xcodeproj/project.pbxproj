@@ -15,11 +15,11 @@
 		50061ADA20B5150900052E70 /* WithTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50061AD920B5150900052E70 /* WithTests.swift */; };
 		50061AE520B5150A00052E70 /* WithUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50061AE420B5150A00052E70 /* WithUITests.swift */; };
 		50061AFA20B63F6B00052E70 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50061AF820B63F6B00052E70 /* CalendarViewController.swift */; };
-		50061AFB20B63F6B00052E70 /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50061AF920B63F6B00052E70 /* CalendarViewController.xib */; };
 		50061AFD20B63FAF00052E70 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50061AFC20B63FAF00052E70 /* DateManager.swift */; };
 		50061B0020B6405F00052E70 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50061AFF20B6405F00052E70 /* Constraint.swift */; };
 		50061B0820B66D3C00052E70 /* CalendarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50061B0720B66D3C00052E70 /* CalendarViewController.storyboard */; };
-		50061B1420B9B84D00052E70 /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50061B1320B9B84C00052E70 /* CalendarCollectionViewCell.swift */; };
+		50B843BA20ED9FD200E97223 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B843B820ED9FD200E97223 /* CollectionViewCell.swift */; };
+		50B843BB20ED9FD200E97223 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50B843B920ED9FD200E97223 /* CollectionViewCell.xib */; };
 		50D8983020EA6D360012E321 /* CalendarDataSourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8982F20EA6D360012E321 /* CalendarDataSourse.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,11 +55,11 @@
 		50061AE420B5150A00052E70 /* WithUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithUITests.swift; sourceTree = "<group>"; };
 		50061AE620B5150A00052E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50061AF820B63F6B00052E70 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
-		50061AF920B63F6B00052E70 /* CalendarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
 		50061AFC20B63FAF00052E70 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
 		50061AFF20B6405F00052E70 /* Constraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
 		50061B0720B66D3C00052E70 /* CalendarViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CalendarViewController.storyboard; sourceTree = "<group>"; };
-		50061B1320B9B84C00052E70 /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		50B843B820ED9FD200E97223 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		50B843B920ED9FD200E97223 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		50D8982F20EA6D360012E321 /* CalendarDataSourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDataSourse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,8 +147,6 @@
 		50061AF220B63A6500052E70 /* Environment */ = {
 			isa = PBXGroup;
 			children = (
-				50061AF720B63EF600052E70 /* Constraint */,
-				50061AF620B63EF200052E70 /* Model */,
 				50061AFC20B63FAF00052E70 /* DateManager.swift */,
 			);
 			path = Environment;
@@ -174,27 +172,12 @@
 			path = Storybods;
 			sourceTree = "<group>";
 		};
-		50061AF620B63EF200052E70 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		50061AF720B63EF600052E70 /* Constraint */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Constraint;
-			sourceTree = "<group>";
-		};
 		50061AFE20B63FCB00052E70 /* Calendar */ = {
 			isa = PBXGroup;
 			children = (
 				50061AF820B63F6B00052E70 /* CalendarViewController.swift */,
 				501816A020DC94AE00C956A0 /* Domein */,
 				501816A120DC94CC00C956A0 /* Presentation */,
-				50061AF920B63F6B00052E70 /* CalendarViewController.xib */,
 			);
 			path = Calendar;
 			sourceTree = "<group>";
@@ -248,7 +231,8 @@
 		501816A220DC95C900C956A0 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				50061B1320B9B84C00052E70 /* CalendarCollectionViewCell.swift */,
+				50B843B820ED9FD200E97223 /* CollectionViewCell.swift */,
+				50B843B920ED9FD200E97223 /* CollectionViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -378,11 +362,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50061AFB20B63F6B00052E70 /* CalendarViewController.xib in Resources */,
 				50061ACF20B5150900052E70 /* LaunchScreen.storyboard in Resources */,
 				50061B0820B66D3C00052E70 /* CalendarViewController.storyboard in Resources */,
 				50061ACC20B5150900052E70 /* Assets.xcassets in Resources */,
 				50061ACA20B5150600052E70 /* Main.storyboard in Resources */,
+				50B843BB20ED9FD200E97223 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,10 +391,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50061B1420B9B84D00052E70 /* CalendarCollectionViewCell.swift in Sources */,
 				50061AFA20B63F6B00052E70 /* CalendarViewController.swift in Sources */,
 				50061AFD20B63FAF00052E70 /* DateManager.swift in Sources */,
 				50061AC720B5150600052E70 /* ViewController.swift in Sources */,
+				50B843BA20ED9FD200E97223 /* CollectionViewCell.swift in Sources */,
 				50D8983020EA6D360012E321 /* CalendarDataSourse.swift in Sources */,
 				50061B0020B6405F00052E70 /* Constraint.swift in Sources */,
 				50061AC520B5150600052E70 /* AppDelegate.swift in Sources */,

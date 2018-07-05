@@ -1,15 +1,14 @@
 //
-//  CalendarCollectionViewCell.swift
+//  CollectionViewCell.swift
 //  With
 //
-//  Created by 川村周也 on 2018/05/24.
+//  Created by 川村周也 on 2018/07/05.
 //  Copyright © 2018年 川村周也. All rights reserved.
 //
 
 import UIKit
 
-class CalendarCollectionViewCell: UICollectionViewCell {
-    var textLabel : UILabel!
+class CollectionViewCell: UICollectionViewCell {var textLabel : UILabel!
     
     var dateLabel : UILabel!
     var ovalShapeLayer = CAShapeLayer()
@@ -38,5 +37,11 @@ class CalendarCollectionViewCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
+    }    
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
     }
+
 }
