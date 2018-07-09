@@ -10,7 +10,6 @@ import UIKit
 
 class CalendarViewController: UIViewController {
     
-    let dateManager = DateManager()
     let calendarManager = CalendarManager(currentDate: Date())
     var calendarData: CalendarDataSourse?
 
