@@ -1,5 +1,5 @@
 //
-//  CollectionViewCell.swift
+//  CalendarCollectionViewCell.swift
 //  With
 //
 //  Created by 川村周也 on 2018/07/05.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CollectionViewCell: UICollectionViewCell {var textLabel : UILabel!
+class CalendarCollectionViewCell: UICollectionViewCell {var textLabel : UILabel!
     
     var dateLabel : UILabel!
     var ovalShapeLayer = CAShapeLayer()

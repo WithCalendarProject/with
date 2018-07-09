@@ -11,17 +11,14 @@ import UIKit
 class CalendarViewController: UIViewController {
     
     let dateManager = DateManager()
+    let calendarManager = CalendarManager(currentDate: Date())
     var calendarData: CalendarDataSourse?
 
     @IBOutlet weak var CalendarCollectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        var items:Array<String> = []
-        for i in 0...30{
-            items.append("day"+i.description)
-        }
+        let items:Array<Int> = calendarManager.getItems()
 
         self.calendarData = CalendarDataSourse(items: items)
         self.CalendarCollectionView.dataSource = self.calendarData

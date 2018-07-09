@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+struct CalendarInfo{
+    let BeginDayOfWeek:Int
+    let dayOfMonth:Int
+    let BeginDate:Date
+    let EndDate:Date
+    let dayItems:[Int]
+}
